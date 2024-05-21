@@ -1702,6 +1702,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
+  .button1{
+    position: relative;
+    margin: 20px;
+    left: 0;
+    display: inline;
+  }
   
 }
 
