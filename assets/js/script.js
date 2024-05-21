@@ -194,5 +194,5 @@ function sendMail() {
 
   window.location.href = mailtoLink;
 
-  return false; // Prevent default form submission
+  // return false; // Prevent default form submission
 }
