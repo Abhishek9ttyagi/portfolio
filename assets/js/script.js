@@ -198,9 +198,9 @@ function sendMail() {
 }
 
 function downloadPDF() {
-  const pdfUrl = '../images/Resume_abhi.pdf'; // Replace with the path to your PDF file
+  const pdfUrl = '../images/Abhishek_SDE_Resume.pdf'; // Replace with the path to your PDF file
   const link = document.createElement('a');
   link.href = pdfUrl;
-  link.download = 'Abhishe_Resume.pdf'; // Replace with the desired download file name
+  link.download = 'Abhishek_Resume.pdf'; // Replace with the desired download file name
   link.click();
 }
