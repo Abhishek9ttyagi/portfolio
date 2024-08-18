@@ -303,10 +303,6 @@ main {
   min-width: 259px;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -331,7 +327,15 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 50%;
+  transition: all 0.3s ease;
 }
+
+.avatar-box>img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0
+  , 0.2);
+  }
+
 
 .info-content .name {
   color: var(--white-2);
@@ -1905,7 +1909,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 150px; 
+    transition: all 0.3s ease;
+  }
  
   .info-content .name {
     white-space: wrap;
